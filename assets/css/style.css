@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "fakt soft pro";
+    text-indent: 2px;
+
+    
+    
+    
+    
+}
+
+header {
+    background-color: aqua;
+    height:20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin-bottom:5vh;
+    border-bottom:15px solid maroon
+}
+header > p {
+    font-size: 50px;
+    text-decoration: underline;
+    color: black;
+    
+}
+section {
+    
+    width:75%;
+    margin:0 auto;
+
+    
+    
+    display: flex;
+}
+
+.hide,#select.hide {
+    display:none;
+}
+
+#heading{
+    background-image: url(https://wallpapersmug.com/large/e3cc6c/marvel-iron-man-minimalist.jpg);
+    flex-direction: column;
+    justify-content: space-between ;
+    font-size:50px;
+    text-align: center;
+}
+
+#heading > button {
+
+    font-size:1em;
+    background-color: steelblue;
+    
+}
+#heading > button:hover {
+ opacity: 0.5;
+}
+
+#game {
+    background-image: url();
+    flex-wrap:wrap;
+    font-size:2em
+}
+#select {
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+#select > * {
+    background-image: url(https://img4.goodfon.com/original/1920x1080/e/c0/mstiteli-the-avengers-avengers-komiks-marvel-logo-logotip-gr.jpg);
+    background-position: 100%;
+    flex:1 0 45%;
+    border:1px solid black;
+    font-size:1em;
+    width: 20vw;
+    height: 20vw;
+}
+
+
+
+#score-input {
+    flex-direction:column;
+    align-items: center;
+}
+
+#results {
+    flex-direction:column;
+    align-items:center
+}
